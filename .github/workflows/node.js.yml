@@ -22,7 +22,7 @@ jobs:
         node-version: 15.0
         cache: 'npm'
     - run: npm ci
-    - run: npm run build --if-present
+    - run: npm run build 
     - run: npm test
 
     - name: Render Deploy Action
